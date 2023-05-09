@@ -1,12 +1,10 @@
 import './App.css';
-import TodoForm from './react-query/TodoForm';
-import TodoList from './react-query/TodoList';
+import LoginStatus from './state-management/LoginStatus';
 
 function App() {
   return (
     <>
-      <TodoForm />
-      <TodoList />
+      <LoginStatus />
     </>
   );
 }
